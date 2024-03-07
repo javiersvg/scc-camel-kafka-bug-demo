@@ -1,0 +1,6 @@
+input:
+  triggeredBy: sendMessage()
+outputMessage:
+  sentTo: 'kafka:myKafkaTopic'
+  body:
+    bookName: foo
